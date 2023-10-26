@@ -14,11 +14,11 @@ on:
       set_target:
         description: "Select Target Device for LEDE."
         required: false
-        default: "zte_e8820v2_defconfig"
+        default: "zte_e8820v2"
         type: choice
         options:
-          - zte_e8820v2_defconfig
-          - phicomm_k2p_defconfig
+          - zte_e8820v2
+          - phicomm_k2p
 
 jobs:
   build_openwrt:
