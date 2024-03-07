@@ -891,7 +891,7 @@ define Device/phicomm_k2-v22.4
   DEVICE_VENDOR := Phicomm
   DEVICE_MODEL := K2
   DEVICE_VARIANT:= v22.4 or older
-  DEVICE_PACKAGES := kmod-mt76x2
+  DEVICE_PACKAGES := kmod-mt76x2 luci-i18n-base-zh-cn luci
   SUPPORTED_DEVICES += psg1218 psg1218a phicomm,psg1218a
 endef
 TARGET_DEVICES += phicomm_k2-v22.4
@@ -902,7 +902,7 @@ define Device/phicomm_k2-v22.5
   DEVICE_VENDOR := Phicomm
   DEVICE_MODEL := K2
   DEVICE_VARIANT:= v22.5 or newer
-  DEVICE_PACKAGES := kmod-mt76x2
+  DEVICE_PACKAGES := kmod-mt76x2  luci
 endef
 TARGET_DEVICES += phicomm_k2-v22.5
 
